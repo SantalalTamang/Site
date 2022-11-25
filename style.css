@@ -1,0 +1,191 @@
+/* All page setup */
+ 
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    margin: none;
+    padding: none;
+    color: black;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* index.html */
+
+header{
+    background-color: yellow;
+    padding: 55px 15px;
+}
+
+header h1{
+    text-align: center;
+}
+
+nav{
+    background-color: black;
+    overflow: hidden;
+}
+
+nav a{
+    color: white;
+    padding: 10px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    float: left;
+}
+
+
+nav a:hover{
+    background-color: tomato;
+    cursor: pointer;
+}
+
+.column{
+    width: 27%;
+    float: left;
+}
+
+#topic1{
+    border: 2px solid black;
+    background-color: azure;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 5px 10px;
+}
+
+
+#topic2{
+    border: 2px solid black;
+    background-color: azure;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 5px 10px;
+}
+
+#main{
+    border: 4px solid black;
+    background-color: rgb(183, 240, 240);
+    padding: 15px;
+    width: 35%;
+    border-radius: 5px;
+    margin: 5px 10px;
+}
+
+section h2,h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+section p{
+    text-align: justify;
+}
+
+footer{
+    clear: both;
+    background-color: yellow;
+    padding: 15px 15px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: bold;
+}
+
+/* about.html */
+
+div a{
+    /* border: 2px solid black; */
+    width: 60px;
+    text-align: center;
+}
+
+
+img{
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+div h2{
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+div p{
+    margin: 40px;
+    text-align: justify;
+}
+
+/* services.html */
+table{
+    margin: 10px 25px;
+    padding: 15px;
+    text-align: center;
+}
+table th{
+    background-color: orange;
+    font-size: 1.5rem;
+}
+
+/* Contact.html */
+
+form {
+    background-color: beige;
+    margin: 8px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    margin: 25px 40px;
+}
+
+input[type="text"],input[type="email"], textarea{
+    width: 80%;
+    margin: 3px;
+    padding: 6px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+input[type="submit"]{
+    width: 60%;
+    padding: 10px;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+}
+
+
+input[type="submit"]:hover{
+    background-color: tomato;
+
+}
+
+
+/* external css: flickity.css */
+
+
+
+.carousel-cell {
+  text-align: center;
+  width: 100%;
+  height: 400px;
+  margin-right: 10px;
+  border-radius: 5px;
+  margin: 20px 15px;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .column,#main{
+        width: 100%;
+    }
+}
